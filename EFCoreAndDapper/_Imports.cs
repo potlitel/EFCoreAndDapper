@@ -1,5 +1,12 @@
-﻿global using EFCoreAndDapper.Entities;
+﻿global using Dapper;
+global using EFCoreAndDapper.Entities;
 global using EFCoreAndDapper.Entities.Common;
+global using EFCoreAndDapper.Entities.ValueObjects;
+global using EFCoreAndDapper.Interfaces;
+global using Microsoft.Data.SqlClient;
 global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 global using System.Data;
+global using System.Data.Common;
 global using System.Linq.Expressions;
+global using System.Reflection;
